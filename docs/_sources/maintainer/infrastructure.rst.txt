@@ -212,13 +212,13 @@ via a pull request.
 
 CircleCI (Linux, OS X)
 ----------------------
-Circle CI is a container-based CI service that conda-forge uses to build
+`CircleCI <https://circleci.com> `_ is a container-based CI service that conda-forge uses to build
 Linux packages. It can optionally build OS X packages.
 
 Linux builds are identical to those on Azure as both are built inside Docker containers.
 
 
-Using Circle for both Linux and OS X
+Using CircleCI for both Linux and OS X
 ....................................
 
 To use CircleCI for OS X, add the following to ``conda-forge.yml`` in the root of the feedstock.
