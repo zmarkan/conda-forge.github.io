@@ -234,13 +234,13 @@ CircleCI for OS X should be used for OS X only when Travis-CI resources (50 minu
 Note that you need to rerender the feedstock once this change has been made.
 
 
-Enabling Circle on your Fork
+Enabling CircleCI on your Fork
 ............................
 
-If for some reason Circle CI is not triggering build from forks,
-Circle can be manually added for each fork. Circle calls this "Adding a Project" and
-`the official Circle's documentation is available here <https://circleci.com/docs/getting-started/#add-and-follow-more-projects>`_.
-This effectively amounts to going to the `Add Projects <https://circleci.com/add-projects>`_
+If for some reason CircleCI is not triggering build from forks,
+Circle can be manually added for each fork. CircleCI calls this "Adding a Project" and
+`the official CircleCI's documentation is available here <https://circleci.com/docs/2.0/projects/>`_.
+This effectively amounts to going to the `Add Projects <https://app.circleci.com/projects/>`_
 page, finding the fork that you wish to enable, and clicking the "Build Project" button.
 This is not normally needed.
 
@@ -257,9 +257,9 @@ When this happens for a feedstock, it can be fixed using the `webservice <https:
 
 Otherwise (e.g. in a PR to staged-recipes), here are some things you can try:
 
-* Log in and out of Circle CI.
-* Revoke Circle CI's access and then enable it again.
-* In the "Checkout SSH keys" section of your Circle CI project settings, press "add user key".
+* Log in and out of CircleCI.
+* Revoke CircleCI's access and then enable it again.
+* In the "Checkout SSH keys" section of your CircleCI project settings, press "add user key".
 
 
 Drone.io
